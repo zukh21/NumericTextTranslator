@@ -116,6 +116,6 @@ class NumberConverter() {
         val text = getNumberNameWithFinalCharsLowerCase(number)
         val firstCharUp = text[0].uppercase()
         val otherCharsLC = text.substring(1)
-        return "$firstCharUp $otherCharsLC"
+        return "$firstCharUp$otherCharsLC"
     }
 }
